@@ -18,10 +18,10 @@ import (
 
 	"github.com/rs/zerolog/log"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
-	"github.com/konstructio/kubefirst-api/internal/httpCommon"
-	"github.com/konstructio/kubefirst-api/internal/services"
-	"github.com/konstructio/kubefirst-api/pkg/reports"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/httpCommon"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/services"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/reports"
 )
 
 // GitHubDeviceFlow handles https://docs.github.com/apps/building-oauth-apps/authorizing-oauth-apps#device-flow

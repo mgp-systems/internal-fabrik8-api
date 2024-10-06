@@ -10,9 +10,9 @@ import (
 	"fmt"
 	"os"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
-	"github.com/konstructio/kubefirst-api/internal/downloadManager"
-	"github.com/konstructio/kubefirst-api/pkg/providerConfigs"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/downloadManager"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
 	"github.com/rs/zerolog/log"
 	"golang.org/x/sync/errgroup"
 )

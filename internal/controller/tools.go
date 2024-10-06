@@ -9,10 +9,10 @@ package controller
 import (
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/utils"
-	awsinternal "github.com/konstructio/kubefirst-api/pkg/aws"
-	"github.com/konstructio/kubefirst-api/pkg/providerConfigs"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/utils"
+	awsinternal "github.com/mgp-systems/internal-fabrik8-api/pkg/aws"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
 	log "github.com/rs/zerolog/log"
 )
 

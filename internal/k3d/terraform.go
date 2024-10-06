@@ -7,7 +7,7 @@ See the LICENSE file for more details.
 package k3d
 
 import (
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 )
 
 func GetGithubTerraformEnvs(config *Config, envs map[string]string) map[string]string {

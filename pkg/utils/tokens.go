@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/konstructio/kubefirst-api/internal/constants"
-	"github.com/konstructio/kubefirst-api/internal/env"
-	"github.com/konstructio/kubefirst-api/pkg/providerConfigs"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/constants"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/env"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/thanhpk/randstr"
 )
 

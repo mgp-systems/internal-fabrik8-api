@@ -9,8 +9,8 @@ package controller
 import (
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	pkg "github.com/konstructio/kubefirst-api/pkg/utils"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/pkg/utils"
 	"github.com/kubefirst/metrics-client/pkg/telemetry"
 	log "github.com/rs/zerolog/log"
 )

@@ -11,8 +11,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/internal/k8s"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/rs/zerolog/log"
 )
 

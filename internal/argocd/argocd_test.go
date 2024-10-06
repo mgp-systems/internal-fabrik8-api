@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/konstructio/kubefirst-api/configs"
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/configs"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 	"github.com/spf13/viper"
 )
 

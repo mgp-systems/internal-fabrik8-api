@@ -11,10 +11,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/konstructio/kubefirst-api/internal/k8s"
-	"github.com/konstructio/kubefirst-api/internal/vault"
-	"github.com/konstructio/kubefirst-api/pkg/providerConfigs"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/vault"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	log "github.com/rs/zerolog/log"
 	"k8s.io/client-go/kubernetes"
 )

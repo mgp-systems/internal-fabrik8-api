@@ -11,7 +11,7 @@ import (
 	"strings"
 
 	"github.com/go-git/go-git/v5"
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

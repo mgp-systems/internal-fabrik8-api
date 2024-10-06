@@ -14,7 +14,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/konstructio/kubefirst-api/configs"
+	"github.com/mgp-systems/internal-fabrik8-api/configs"
 )
 
 // detokenizeGitGitops - Translate tokens by values on a given path

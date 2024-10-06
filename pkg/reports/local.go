@@ -7,7 +7,7 @@ See the LICENSE file for more details.
 package reports
 
 import (
-	"github.com/konstructio/kubefirst-api/internal/k3d"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k3d"
 )
 
 // LocalHandoffScreenV2 prints the handoff screen

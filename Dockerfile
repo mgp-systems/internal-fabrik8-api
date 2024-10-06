@@ -18,7 +18,7 @@ RUN go build -o kubefirst-api .
 
 FROM alpine:3.18.2
 
-LABEL org.opencontainers.image.source=https://github.com/konstructio/kubefirst-api
+LABEL org.opencontainers.image.source=https://github.com/mgp-systems/internal-fabrik8-api
 LABEL org.opencontainers.image.description="Kubefirst API that serves console frontend"
 LABEL org.opencontainers.image.licenses=MIT
 

@@ -1,6 +1,6 @@
 package k8s
 
-import internal "github.com/konstructio/kubefirst-api/internal/k8s"
+import internal "github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
 
 type KubernetesClient = internal.KubernetesClient
 

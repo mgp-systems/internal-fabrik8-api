@@ -11,12 +11,12 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/services"
-	"github.com/konstructio/kubefirst-api/internal/types"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/services"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/types"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 
-	"github.com/konstructio/kubefirst-api/internal/utils"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/utils"
 )
 
 // GetServices godoc

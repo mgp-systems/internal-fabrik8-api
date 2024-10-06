@@ -7,8 +7,8 @@ See the LICENSE file for more details.
 package reports
 
 import (
-	awsinternal "github.com/konstructio/kubefirst-api/internal/aws"
-	"github.com/konstructio/kubefirst-api/pkg/providerConfigs"
+	awsinternal "github.com/mgp-systems/internal-fabrik8-api/internal/aws"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
 )
 
 // AwsHandoffScreen prints the handoff screen

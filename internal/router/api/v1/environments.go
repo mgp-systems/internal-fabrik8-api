@@ -5,11 +5,11 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	environments "github.com/konstructio/kubefirst-api/internal/environments"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/types"
-	"github.com/konstructio/kubefirst-api/internal/utils"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	environments "github.com/mgp-systems/internal-fabrik8-api/internal/environments"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/utils"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 )
 
 func GetEnvironments(c *gin.Context) {

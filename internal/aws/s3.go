@@ -13,7 +13,7 @@ import (
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	s3Types "github.com/aws/aws-sdk-go-v2/service/s3/types"
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 	"github.com/rs/zerolog/log"
 )
 

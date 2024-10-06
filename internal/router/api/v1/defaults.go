@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/konstructio/kubefirst-api/pkg/constants"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/constants"
 )
 
 func GetCloudProviderDefaults(c *gin.Context) {

@@ -9,7 +9,7 @@ package providerConfigs //nolint:revive,stylecheck // allowed during refactoring
 import (
 	"runtime"
 
-	runtimepkg "github.com/konstructio/kubefirst-api/internal"
+	runtimepkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 )
 
 const (

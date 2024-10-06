@@ -10,7 +10,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/pkg/handlers"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/handlers"
 )
 
 // AuthenticateGitHubUserWrapper receives a handler that was previously instantiated, and communicate with GitHub.

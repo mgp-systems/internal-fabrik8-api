@@ -7,7 +7,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	"github.com/aws/aws-sdk-go-v2/config"
-	awsinternal "github.com/konstructio/kubefirst-api/internal/aws"
+	awsinternal "github.com/mgp-systems/internal-fabrik8-api/internal/aws"
 	"github.com/rs/zerolog/log"
 )
 

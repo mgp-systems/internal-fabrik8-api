@@ -9,14 +9,14 @@ package main
 import (
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/docs"
-	"github.com/konstructio/kubefirst-api/internal/env"
-	api "github.com/konstructio/kubefirst-api/internal/router"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/services"
-	apitelemetry "github.com/konstructio/kubefirst-api/internal/telemetry"
-	"github.com/konstructio/kubefirst-api/internal/utils"
-	"github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/docs"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/env"
+	api "github.com/mgp-systems/internal-fabrik8-api/internal/router"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/services"
+	apitelemetry "github.com/mgp-systems/internal-fabrik8-api/internal/telemetry"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/utils"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/kubefirst/metrics-client/pkg/telemetry"
 	log "github.com/rs/zerolog/log"
 )

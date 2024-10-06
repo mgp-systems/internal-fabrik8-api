@@ -14,7 +14,7 @@ import (
 	"io"
 	"os"
 
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/rs/zerolog/log"

@@ -12,12 +12,12 @@ import (
 	"fmt"
 
 	cloudflare_api "github.com/cloudflare/cloudflare-go"
-	"github.com/konstructio/kubefirst-api/internal/civo"
-	"github.com/konstructio/kubefirst-api/internal/cloudflare"
-	"github.com/konstructio/kubefirst-api/internal/digitalocean"
-	"github.com/konstructio/kubefirst-api/internal/dns"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/vultr"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/civo"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/cloudflare"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/digitalocean"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/dns"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/vultr"
 	"github.com/kubefirst/metrics-client/pkg/telemetry"
 	log "github.com/rs/zerolog/log"
 )

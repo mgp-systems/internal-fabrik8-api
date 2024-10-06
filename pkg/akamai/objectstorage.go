@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/linode/linodego"
 )
 

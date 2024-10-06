@@ -1,6 +1,6 @@
 package gitlab
 
-import internal "github.com/konstructio/kubefirst-api/internal/gitlab"
+import internal "github.com/mgp-systems/internal-fabrik8-api/internal/gitlab"
 
 type DeployTokenCreateParameters = internal.DeployTokenCreateParameters
 

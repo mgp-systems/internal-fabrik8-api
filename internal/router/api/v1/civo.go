@@ -12,8 +12,8 @@ import (
 
 	"github.com/civo/civogo"
 	"github.com/gin-gonic/gin"
-	"github.com/konstructio/kubefirst-api/internal/civo"
-	"github.com/konstructio/kubefirst-api/internal/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/civo"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/types"
 )
 
 // GetValidateCivoDomain godoc

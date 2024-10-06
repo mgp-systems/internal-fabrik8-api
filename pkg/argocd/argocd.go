@@ -1,6 +1,6 @@
 package argocd
 
-import "github.com/konstructio/kubefirst-api/internal/argocd"
+import "github.com/mgp-systems/internal-fabrik8-api/internal/argocd"
 
 //nolint:gochecknoglobals
 var (

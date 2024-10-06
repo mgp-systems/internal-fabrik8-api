@@ -3,10 +3,10 @@ package telemetry
 import (
 	"time"
 
-	"github.com/konstructio/kubefirst-api/internal/constants"
-	"github.com/konstructio/kubefirst-api/internal/env"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/utils"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/constants"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/env"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/utils"
 	"github.com/kubefirst/metrics-client/pkg/telemetry"
 )
 

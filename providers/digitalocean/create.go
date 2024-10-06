@@ -10,13 +10,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/konstructio/kubefirst-api/internal/constants"
-	"github.com/konstructio/kubefirst-api/internal/controller"
-	"github.com/konstructio/kubefirst-api/internal/k8s"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/services"
-	"github.com/konstructio/kubefirst-api/internal/ssl"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/constants"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/controller"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/services"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/ssl"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	log "github.com/rs/zerolog/log"
 )
 

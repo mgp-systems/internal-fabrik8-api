@@ -1,6 +1,6 @@
 package configs
 
-import "github.com/konstructio/kubefirst-api/configs"
+import "github.com/mgp-systems/internal-fabrik8-api/configs"
 
 const DefaultK1Version = configs.DefaultK1Version
 

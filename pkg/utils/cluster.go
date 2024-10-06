@@ -10,9 +10,9 @@ import (
 	"os"
 	"time"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
-	"github.com/konstructio/kubefirst-api/internal/httpCommon"
-	"github.com/konstructio/kubefirst-api/pkg/types"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/httpCommon"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/rs/zerolog/log"

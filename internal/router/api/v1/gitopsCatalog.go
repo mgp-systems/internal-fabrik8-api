@@ -11,9 +11,9 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/types"
-	"github.com/konstructio/kubefirst-api/internal/utils"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/utils"
 )
 
 // GetGitopsCatalogApps godoc

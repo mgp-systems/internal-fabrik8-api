@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/konstructio/kubefirst-api/internal/gitlab"
-	"github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/gitlab"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/mikesmitty/edkey"
 	log "github.com/rs/zerolog/log"
 	"github.com/spf13/viper"

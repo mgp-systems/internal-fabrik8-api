@@ -16,7 +16,7 @@ var BetaProviders = [...]string{"digitalocean", "google", "vultr"}
 const (
 	JSONContentType              = "application/json"
 	SoftServerURI                = "ssh://127.0.0.1:8022/config"
-	GitHubOAuthClientID          = "2ced340927e0a6c49a45"
+	GitHubOAuthClientID          = "Ov23liR5l73x6NBudynM"
 	CloudK3d                     = "k3d"
 	CloudAws                     = "aws"
 	DefaultS3Region              = "us-east-1"
@@ -25,8 +25,8 @@ const (
 	LocalClusterName             = "kubefirst"
 	MinimumAvailableDiskSize     = 10 // 10 GB
 	KubefirstGitopsRepository    = "gitops"
-	KubefirstGitopsRepositoryURL = "https://github.com/kubefirst/gitops-template"
-	LocalDomainName              = "kubefirst.dev"
+	KubefirstGitopsRepositoryURL = "https://github.com/mgp-systems/fabrik8-gitops-template"
+	LocalDomainName              = "fabrik8.dev"
 	LocalhostARCH                = runtime.GOARCH
 	LocalhostOS                  = runtime.GOOS
 	AwsECRUsername               = "AWS"

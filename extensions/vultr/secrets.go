@@ -9,8 +9,8 @@ package vultr
 import (
 	"fmt"
 
-	providerConfig "github.com/konstructio/kubefirst-api/pkg/providerConfigs"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	providerConfig "github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/rs/zerolog/log"
 	"k8s.io/client-go/kubernetes"
 )

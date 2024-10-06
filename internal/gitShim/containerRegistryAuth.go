@@ -10,8 +10,8 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/internal/gitlab"
-	"github.com/konstructio/kubefirst-api/internal/k8s"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/gitlab"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
 	log "github.com/rs/zerolog/log"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

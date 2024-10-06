@@ -12,7 +12,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/konstructio/kubefirst-api/internal/helpers"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/helpers"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/afero"
 	"k8s.io/client-go/kubernetes"

@@ -12,7 +12,7 @@ import (
 	"os"
 	"strings"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 	"github.com/rs/zerolog/log"
 	v1 "k8s.io/api/core/v1"
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"

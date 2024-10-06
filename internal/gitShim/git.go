@@ -13,8 +13,8 @@ import (
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/plumbing"
 	"github.com/go-git/go-git/v5/plumbing/transport"
-	"github.com/konstructio/kubefirst-api/internal/gitClient"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/gitClient"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	"github.com/rs/zerolog/log"
 )
 

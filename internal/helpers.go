@@ -19,8 +19,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/konstructio/kubefirst-api/configs"
-	"github.com/konstructio/kubefirst-api/internal/progressPrinter"
+	"github.com/mgp-systems/internal-fabrik8-api/configs"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/progressPrinter"
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/viper"
 )

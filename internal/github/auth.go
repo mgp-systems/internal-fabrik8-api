@@ -12,8 +12,8 @@ import (
 	"net/http"
 	"strings"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
-	"github.com/konstructio/kubefirst-api/internal/httpCommon"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/httpCommon"
 	"github.com/rs/zerolog/log"
 )
 

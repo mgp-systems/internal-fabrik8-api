@@ -7,8 +7,8 @@ See the LICENSE file for more details.
 package reports
 
 import (
-	"github.com/konstructio/kubefirst-api/internal/digitalocean"
-	"github.com/konstructio/kubefirst-api/pkg/providerConfigs"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/digitalocean"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/providerConfigs"
 )
 
 // DigitaloceanHandoffScreen prints the handoff screen

@@ -10,9 +10,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/konstructio/kubefirst-api/internal/gitopsCatalog"
-	"github.com/konstructio/kubefirst-api/internal/k8s"
-	"github.com/konstructio/kubefirst-api/pkg/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/gitopsCatalog"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
+	"github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	log "github.com/rs/zerolog/log"
 	"golang.org/x/exp/slices"
 	v1 "k8s.io/api/core/v1"

@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   api:
-    repository: ghcr.io/konstructio/kubefirst-api
+    repository: ghcr.io/mgp-systems/internal-fabrik8-api
     pullPolicy: IfNotPresent
   hook:
     repository: public.ecr.aws/kubefirst/metrics-client

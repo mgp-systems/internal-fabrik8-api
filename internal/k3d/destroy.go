@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 	"github.com/rs/zerolog/log"
 )
 

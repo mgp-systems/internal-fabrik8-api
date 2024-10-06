@@ -1,4 +1,4 @@
-module github.com/konstructio/kubefirst-api
+module github.com/mgp-systems/internal-fabrik8-api
 
 go 1.23
 

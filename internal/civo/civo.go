@@ -16,8 +16,8 @@ import (
 	"time"
 
 	"github.com/civo/civogo"
-	"github.com/konstructio/kubefirst-api/internal/dns"
-	"github.com/konstructio/kubefirst-api/internal/httpCommon"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/dns"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/httpCommon"
 	"github.com/rs/zerolog/log"
 )
 

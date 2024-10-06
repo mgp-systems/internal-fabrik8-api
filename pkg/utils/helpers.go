@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	internal "github.com/konstructio/kubefirst-api/internal"
-	helpers "github.com/konstructio/kubefirst-api/internal/helpers"
+	internal "github.com/mgp-systems/internal-fabrik8-api/internal"
+	helpers "github.com/mgp-systems/internal-fabrik8-api/internal/helpers"
 )
 
 func randSeq(n int) string {

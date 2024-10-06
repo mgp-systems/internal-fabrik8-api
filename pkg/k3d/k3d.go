@@ -1,8 +1,8 @@
 package k3d
 
 import (
-	"github.com/konstructio/kubefirst-api/internal/controller"
-	internal "github.com/konstructio/kubefirst-api/internal/k3d"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/controller"
+	internal "github.com/mgp-systems/internal-fabrik8-api/internal/k3d"
 )
 
 const (

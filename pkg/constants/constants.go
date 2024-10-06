@@ -1,6 +1,6 @@
 package constants
 
-import internal "github.com/konstructio/kubefirst-api/internal"
+import internal "github.com/mgp-systems/internal-fabrik8-api/internal"
 
 const (
 	MinimumAvailableDiskSize = internal.MinimumAvailableDiskSize

@@ -11,8 +11,8 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/konstructio/kubefirst-api/internal/constants"
-	"github.com/konstructio/kubefirst-api/internal/env"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/constants"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/env"
 	"github.com/rs/zerolog/log"
 )
 

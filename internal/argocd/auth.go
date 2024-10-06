@@ -12,9 +12,9 @@ import (
 	"fmt"
 	"net/http"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
-	"github.com/konstructio/kubefirst-api/internal/argocdModel"
-	"github.com/konstructio/kubefirst-api/internal/httpCommon"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/argocdModel"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/httpCommon"
 )
 
 func getToken(endpoint, username, password string) (string, error) {

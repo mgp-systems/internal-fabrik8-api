@@ -12,8 +12,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/konstructio/kubefirst-api/internal/dns"
-	"github.com/konstructio/kubefirst-api/internal/httpCommon"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/dns"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/httpCommon"
 	"github.com/rs/zerolog/log"
 	"github.com/vultr/govultr/v3"
 )

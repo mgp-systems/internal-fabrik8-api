@@ -10,7 +10,7 @@ import (
 	"net/http"
 
 	"github.com/gin-gonic/gin"
-	"github.com/konstructio/kubefirst-api/internal/types"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/types"
 )
 
 // getHealth godoc

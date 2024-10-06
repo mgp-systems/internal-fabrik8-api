@@ -11,7 +11,7 @@ import (
 	stdLog "log"
 	"os"
 
-	pkg "github.com/konstructio/kubefirst-api/internal"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
 	zeroLog "github.com/rs/zerolog"
 	log "github.com/rs/zerolog/log"
 )

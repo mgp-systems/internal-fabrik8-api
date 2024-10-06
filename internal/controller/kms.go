@@ -11,9 +11,9 @@ import (
 
 	"github.com/go-git/go-git/v5"
 	githttps "github.com/go-git/go-git/v5/plumbing/transport/http"
-	pkg "github.com/konstructio/kubefirst-api/internal"
-	"github.com/konstructio/kubefirst-api/internal/gitClient"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
+	pkg "github.com/mgp-systems/internal-fabrik8-api/internal"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/gitClient"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
 )
 
 // DetokenizeKMSKeyID

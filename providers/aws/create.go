@@ -9,14 +9,14 @@ package aws
 import (
 	"fmt"
 
-	awsext "github.com/konstructio/kubefirst-api/extensions/aws"
-	awsinternal "github.com/konstructio/kubefirst-api/internal/aws"
-	"github.com/konstructio/kubefirst-api/internal/constants"
-	"github.com/konstructio/kubefirst-api/internal/controller"
-	"github.com/konstructio/kubefirst-api/internal/k8s"
-	"github.com/konstructio/kubefirst-api/internal/secrets"
-	"github.com/konstructio/kubefirst-api/internal/services"
-	pkgtypes "github.com/konstructio/kubefirst-api/pkg/types"
+	awsext "github.com/mgp-systems/internal-fabrik8-api/extensions/aws"
+	awsinternal "github.com/mgp-systems/internal-fabrik8-api/internal/aws"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/constants"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/controller"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k8s"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/secrets"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/services"
+	pkgtypes "github.com/mgp-systems/internal-fabrik8-api/pkg/types"
 	log "github.com/rs/zerolog/log"
 )
 

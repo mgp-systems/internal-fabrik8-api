@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/konstructio/kubefirst-api/internal/k3d"
+	"github.com/mgp-systems/internal-fabrik8-api/internal/k3d"
 )
 
 // todo: use URL constants for app addresses
