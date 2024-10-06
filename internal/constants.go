@@ -16,7 +16,7 @@ var BetaProviders = [...]string{"digitalocean", "google", "vultr"}
 const (
 	JSONContentType              = "application/json"
 	SoftServerURI                = "ssh://127.0.0.1:8022/config"
-	GitHubOAuthClientID          = "Ov23liR5l73x6NBudynM"
+	GitHubOAuthClientID          = "Ov23liwhA6qb1fmxAyD7"
 	CloudK3d                     = "k3d"
 	CloudAws                     = "aws"
 	DefaultS3Region              = "us-east-1"
