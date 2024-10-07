@@ -217,12 +217,12 @@ func (handler GitHubHandler) CheckGithubOrganizationPermissions(githubToken, git
 func printGitHubAuthToken(userCode, verificationURI string) string {
 	var gitHubTokenReport bytes.Buffer
 	gitHubTokenReport.WriteString(strings.Repeat("-", 69))
-	gitHubTokenReport.WriteString("\nNo GITHUB_TOKEN env variable found!\nUse the code below to get a temporary GitHub Access Token\nThis token will be used by Kubefirst to create your environment\n")
-	gitHubTokenReport.WriteString("\n\nA GitHub Access Token is required to provision GitHub repositories and run workflows in GitHub.\n")
-	gitHubTokenReport.WriteString(strings.Repeat("-", 69) + "\n")
-	gitHubTokenReport.WriteString("1. Copy this code: 📋 " + userCode + " 📋\n\n")
+	gitHubTokenReport.WriteString("\n\nNo GITHUB_TOKEN env variable found!\nUse the code below to get a temporary GitHub Access Token\nThis token will be used by fabrik8 to create your environment\n")
+	gitHubTokenReport.WriteString("\n\nA GitHub Access Token is required to provision GitHub repositories and run workflows in GitHub.\n\n")
+	gitHubTokenReport.WriteString(strings.Repeat("-", 69) + "\n\n")
+	gitHubTokenReport.WriteString("1. Copy this code: '" + userCode + "' \n\n")
 	gitHubTokenReport.WriteString(fmt.Sprintf("2. When ready, press <enter> to open the page at %s\n\n", verificationURI))
-	gitHubTokenReport.WriteString("3. Authorize the organization you'll be using Kubefirst with - this may also be your personal account")
+	gitHubTokenReport.WriteString("3. Authorize the organization you'll be using fabrik8 with - this may also be your personal account")
 
 	return gitHubTokenReport.String()
 }
