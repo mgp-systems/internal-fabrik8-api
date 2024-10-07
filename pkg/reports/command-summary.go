@@ -121,8 +121,8 @@ func CommandSummary(cleanSummary bytes.Buffer) {
 }
 
 func getStyle() lipgloss.Style {
-	const fabrik8LightGrey = "#cccccc"
-	const fabrik8LightPurple = "#d0bae9"
+	const fabrik8LightGrey = "#808080"
+	const fabrik8LightPurple = "#cccccc"
 
 	style := lipgloss.NewStyle().
 		Foreground(lipgloss.Color(fabrik8LightPurple)).
