@@ -138,12 +138,12 @@ func ReadConfig() (*Config, error) {
 	}
 
 	config.HomePath = homePath
-	config.K1FolderPath = fmt.Sprintf("%s/.k1", homePath)
-	config.GitopsDir = fmt.Sprintf("%s/.k1/gitops", homePath)
-	config.K1Dir = fmt.Sprintf("%s/.k1", homePath)
+	config.K1FolderPath = fmt.Sprintf("%s/.fabrik8", homePath)
+	config.GitopsDir = fmt.Sprintf("%s/.fabrik8/gitops", homePath)
+	config.K1Dir = fmt.Sprintf("%s/.fabrik8", homePath)
 
 	config.K1ToolsPath = fmt.Sprintf("%s/tools", config.K1FolderPath)
-	config.KubefirstConfigFileName = ".kubefirst"
+	config.KubefirstConfigFileName = ".fabrik8"
 	config.KubefirstConfigFilePath = fmt.Sprintf("%s/%s", homePath, config.KubefirstConfigFileName)
 
 	config.GitopsRepoPath = fmt.Sprintf("%s/gitops", config.K1FolderPath)
