@@ -18,7 +18,7 @@ import (
 const (
 	ArgocdPortForwardURL = "http://localhost:8080"
 	CloudProvider        = "k3d"
-	DomainName           = "kubefirst.dev"
+	DomainName           = "fabrik8.dev"
 	GithubHost           = "github.com"
 	GitlabHost           = "gitlab.com"
 	K3dVersion           = "v5.4.6"
@@ -97,20 +97,20 @@ func GetConfig(clusterName, gitProvider, gitOwner, gitProtocol string) (*Config,
 	config.DestinationMetaphorRepoURL = fmt.Sprintf("https://%s/%s/metaphor.git", cGitHost, gitOwner)
 	config.DestinationMetaphorRepoGitURL = fmt.Sprintf("git@%s:%s/metaphor.git", cGitHost, gitOwner)
 
-	config.GitopsDir = fmt.Sprintf("%s/.k1/%s/gitops", homeDir, clusterName)
+	config.GitopsDir = fmt.Sprintf("%s/.fabrik8/%s/gitops", homeDir, clusterName)
 	config.GitProvider = gitProvider
 	config.GitProtocol = gitProtocol
-	config.K1Dir = fmt.Sprintf("%s/.k1/%s", homeDir, clusterName)
-	config.K3dClient = fmt.Sprintf("%s/.k1/%s/tools/k3d", homeDir, clusterName)
-	config.KubectlClient = fmt.Sprintf("%s/.k1/%s/tools/kubectl", homeDir, clusterName)
-	config.Kubeconfig = fmt.Sprintf("%s/.k1/%s/kubeconfig", homeDir, clusterName)
-	config.KubefirstConfig = fmt.Sprintf("%s/.k1/%s/%s", homeDir, clusterName, ".kubefirst")
-	config.MetaphorDir = fmt.Sprintf("%s/.k1/%s/metaphor", homeDir, clusterName)
-	config.MkCertClient = fmt.Sprintf("%s/.k1/%s/tools/mkcert", homeDir, clusterName)
-	config.MkCertPemDir = fmt.Sprintf("%s/.k1/%s/ssl/%s/pem", homeDir, clusterName, DomainName)
-	config.MkCertSSLSecretDir = fmt.Sprintf("%s/.k1/%s/ssl/%s/secrets", homeDir, clusterName, DomainName)
-	config.TerraformClient = fmt.Sprintf("%s/.k1/%s/tools/terraform", homeDir, clusterName)
-	config.ToolsDir = fmt.Sprintf("%s/.k1/%s/tools", homeDir, clusterName)
+	config.K1Dir = fmt.Sprintf("%s/.fabrik8/%s", homeDir, clusterName)
+	config.K3dClient = fmt.Sprintf("%s/.fabrik8/%s/tools/k3d", homeDir, clusterName)
+	config.KubectlClient = fmt.Sprintf("%s/.fabrik8/%s/tools/kubectl", homeDir, clusterName)
+	config.Kubeconfig = fmt.Sprintf("%s/.fabrik8/%s/kubeconfig", homeDir, clusterName)
+	config.KubefirstConfig = fmt.Sprintf("%s/.fabrik8/%s/%s", homeDir, clusterName, ".kubefirst")
+	config.MetaphorDir = fmt.Sprintf("%s/.fabrik8/%s/metaphor", homeDir, clusterName)
+	config.MkCertClient = fmt.Sprintf("%s/.fabrik8/%s/tools/mkcert", homeDir, clusterName)
+	config.MkCertPemDir = fmt.Sprintf("%s/.fabrik8/%s/ssl/%s/pem", homeDir, clusterName, DomainName)
+	config.MkCertSSLSecretDir = fmt.Sprintf("%s/.fabrik8/%s/ssl/%s/secrets", homeDir, clusterName, DomainName)
+	config.TerraformClient = fmt.Sprintf("%s/.fabrik8/%s/tools/terraform", homeDir, clusterName)
+	config.ToolsDir = fmt.Sprintf("%s/.fabrik8/%s/tools", homeDir, clusterName)
 
 	return &config, nil
 }
